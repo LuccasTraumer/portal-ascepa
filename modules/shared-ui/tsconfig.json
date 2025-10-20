@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "useDefineForClassFields": false,
+    "composite": true,
+    "declaration": true
+  },
+  "files": [],
+  "include": ["/modules/shared-ui/src/lib/**/*.ts"],
+  "references": [
+    {
+      "path": "./tsconfig.lib.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./.storybook/tsconfig.json"
+    }
+  ],
+  "extends": "../../tsconfig.base.json"
+}

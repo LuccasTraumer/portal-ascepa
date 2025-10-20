@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+/**********************************************************
+* Configuração de Estilos Globais
+*---------------------------------------------------------
+* As configurações abaixo são aplicadas em todo o projeto.
+* Não é recomendado alterar essas configurações.
+***********************************************************/
+
+@import './scss/global';
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: $font-family;
+}

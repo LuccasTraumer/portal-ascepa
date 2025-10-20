@@ -1,0 +1,39 @@
+@import './mixin';
+
+h1 {
+  @include headline-1-style;
+}
+
+h2 {
+  @include headline-2-style;
+}
+
+h3 {
+  @include headline-3-style;
+}
+
+.body-l {
+  @include body-l-style;
+}
+
+.body-m {
+  @include body-m-style;
+}
+
+.body-p {
+  @include body-p-style;
+}
+
+.footer-title {
+  @include footer-title-style;
+  margin-bottom: 10px;
+}
+
+.footer-subtitle {
+  @include footer-subtitle-style;
+}
+
+.footer-copyright {
+  @include footer-copyright-style;
+  margin-top: 30px;
+}

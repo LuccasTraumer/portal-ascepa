@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": false,
+    "declarationMap": false,
+    "rootDir": ".",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2022",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@portal-ascepa/about": ["modules/about/src/index.ts"],
+      "@portal-ascepa/angular-plugin": ["plugins/angular/src/index.ts"],
+      "@portal-ascepa/home": ["modules/home/src/index.ts"],
+      "@portal-ascepa/layout": ["modules/layout/src/index.ts"],
+      "@portal-ascepa/news": ["modules/news/src/index.ts"],
+      "@portal-ascepa/news-detail": ["modules/news-detail/src/index.ts"],
+      "@portal-ascepa/shared-ui": ["modules/shared-ui/src/index.ts"],
+      "@portal-ascepa/vacancies": ["modules/vacancies/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
